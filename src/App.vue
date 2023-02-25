@@ -1,17 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <number-scroll :number="number"/> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import NumberScroll from './package/number-scroll/index'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // NumberScroll
+  },
+  data() {
+    return {
+      // number: 0
+    }
+  },
+  mounted() {
+    // setInterval(() => {
+    //   const number = parseInt( Math.random() * 10000 )
+    //   console.log('number', number)
+    //   this.number = number
+    // }, 5000)
   }
 }
 </script>
