@@ -2640,6 +2640,11 @@ deepmerge@^1.5.2:
   resolved "https://registry.npmmirror.com/deepmerge/-/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
   integrity sha512-95k0GDqvBjZavkuvzx/YqVLv/6YYa17fz6ILMSf7neqQITCPbnfEnQvEgMPNjH4kgobe7+WIL0yJEHku+H3qtQ==
 
+deepmerge@^2.0.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-2.2.1.tgz#5d3ff22a01c00f645405a2fbc17d0778a1801170"
+  integrity sha512-R9hc1Xa/NOBi9WRVUWg19rl1UB7Tt4kuPd+thNJgFZoxXsTz7ncaPaeIm+40oSGuP33DfMb4sZt1QIGiJzC4EA==
+
 default-gateway@^6.0.3:
   version "6.0.3"
   resolved "https://registry.npmmirror.com/default-gateway/-/default-gateway-6.0.3.tgz#819494c888053bdb743edbf343d6cdf7f2943a71"
@@ -6223,6 +6228,14 @@ ws@^8.4.2:
   version "8.12.1"
   resolved "https://registry.npmmirror.com/ws/-/ws-8.12.1.tgz#c51e583d79140b5e42e39be48c934131942d4a8f"
   integrity sha512-1qo+M9Ba+xNhPB+YTWUlK6M17brTut5EXbcBaMRN5pH5dFrXz7lzz1ChFSUq3bOUl8yEvSenhHmYUNJxFzdJew==
+
+xgplayer-music@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/xgplayer-music/-/xgplayer-music-3.0.1.tgz#7d1ba9056eb2886a1d88127522b57feb4b788f38"
+  integrity sha512-6uWQkSUEt88FSgsNUAAFiNsDXvlNoGYS3vA5GCuz9sKnuKhkQFRWLyVRKt7cOMYrMql+P0PcKPiM5PKYd5d68w==
+  dependencies:
+    deepmerge "^2.0.1"
+    eventemitter3 "^4.0.7"
 
 xgplayer-subtitles@1.1.0:
   version "1.1.0"

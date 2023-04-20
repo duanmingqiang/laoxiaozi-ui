@@ -1,19 +1,19 @@
 <template>
   <div id="app" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
     <player />
-    <bpmn />
+    <!-- <bpmn /> -->
   </div>
 </template>
 
 <script>
 
 import Player from './package/player/index.vue'
-import Bpmn from './package/bpmn/index'
+// import Bpmn from './package/bpmn/index'
 export default {
   name: 'App',
   components: {
     Player,
-    Bpmn
+    // Bpmn
   },
   data() {
     return {
